@@ -1,0 +1,31 @@
+# Environments & Secrets
+venv/
+env/
+.env
+
+# Python Bytecode & Cache
+__pycache__
+*.pyc
+*.pyo
+
+# Local Databases & State
+*.db
+*.sqlite3
+breach_history.db
+
+
+# Office Temporary Locks & Helper Scripts
+~$*.mkv
+apikeys.env
+.env
+__pycache__
+README.docx
+ProjectRecord.mkv
+hids_events.db
+tmppasswords.txt
+
+
+# Editor & OS Files
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+﻿,id,timestamp,attack_type,severity,ip_address,raw_log
+0,28,2026-10-05 14:45:24,Root Session Opened,Critical,127.0.0.1,Oct 05 15:45:23 kali su[86243]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+1,27,2026-10-05 14:45:24,Root Session Opened,Critical,127.0.0.1,Oct 05 15:45:23 kali sudo[86240]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2,26,2026-10-05 14:45:01,Root Session Opened,Critical,127.0.0.1,Oct 05 15:45:01 kali CRON[85966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+3,25,2026-10-05 14:42:02,Root Session Opened,Critical,127.0.0.1,Oct 05 15:42:01 kali sudo[82588]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+4,24,2026-10-05 14:40:34,Root Session Opened,Critical,127.0.0.1,Oct 05 15:40:33 kali sudo[82395]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+5,23,2026-10-05 14:39:01,Root Session Opened,Critical,127.0.0.1,Oct 05 15:39:01 kali CRON[81278]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+6,22,2026-10-05 14:35:02,Root Session Opened,Critical,127.0.0.1,Oct 05 15:35:01 kali CRON[78468]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+7,21,2026-10-05 14:25:02,Root Session Opened,Critical,127.0.0.1,Oct 05 15:25:01 kali CRON[71356]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+8,20,2026-10-05 14:17:02,Root Session Opened,Critical,127.0.0.1,Oct 05 15:17:01 kali CRON[64441]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+9,19,2026-10-05 14:15:02,Root Session Opened,Critical,127.0.0.1,Oct 05 15:15:01 kali CRON[62992]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+10,18,2026-10-05 14:13:49,SSH Brute-Force / Failed Password,High,127.0.0.1,Oct 05 15:13:48 kali sshd-session[62069]: Failed password for invalid user invaliduser from 127.0.0.1 port 51556 ssh2
+11,17,2026-10-05 14:13:48,SSH Brute-Force / Failed Password,High,127.0.0.1,Oct 05 15:13:48 kali sshd-session[62068]: Failed password for invalid user invaliduser from 127.0.0.1 port 51542 ssh2
+12,16,2026-10-05 14:13:48,SSH Brute-Force / Failed Password,High,127.0.0.1,Oct 05 15:13:48 kali sshd-session[62066]: Failed password for invalid user invaliduser from 127.0.0.1 port 51516 ssh2
+13,15,2026-10-05 14:13:48,SSH Brute-Force / Failed Password,High,127.0.0.1,Oct 05 15:13:48 kali sshd-session[62067]: Failed password for invalid user invaliduser from 127.0.0.1 port 51526 ssh2
+14,14,2026-10-05 14:13:47,SSH Invalid User Enumeration,Medium,127.0.0.1,Oct 05 15:13:46 kali sshd-session[62069]: Invalid user invaliduser from 127.0.0.1 port 51556
+15,13,2026-10-05 14:13:47,SSH Invalid User Enumeration,Medium,127.0.0.1,Oct 05 15:13:46 kali sshd-session[62067]: Invalid user invaliduser from 127.0.0.1 port 51526
+16,12,2026-10-05 14:13:46,SSH Invalid User Enumeration,Medium,127.0.0.1,Oct 05 15:13:46 kali sshd-session[62068]: Invalid user invaliduser from 127.0.0.1 port 51542
+17,11,2026-10-05 14:13:46,SSH Invalid User Enumeration,Medium,127.0.0.1,Oct 05 15:13:46 kali sshd-session[62066]: Invalid user invaliduser from 127.0.0.1 port 51516
+18,10,2026-10-05 14:13:46,SSH Invalid User Enumeration,Medium,127.0.0.1,Oct 05 15:13:45 kali sshd-session[62046]: Invalid user invaliduser from 127.0.0.1 port 51506
+19,9,2026-10-05 14:09:01,Root Session Opened,Critical,127.0.0.1,Oct 05 15:09:01 kali CRON[58522]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+20,8,2026-10-05 14:05:01,Root Session Opened,Critical,127.0.0.1,Oct 05 15:05:01 kali CRON[55293]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+21,7,2026-10-05 13:55:01,Root Session Opened,Critical,127.0.0.1,Oct 05 14:55:01 kali CRON[48169]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+22,6,2026-10-05 12:56:50,Root Session Opened,Critical,127.0.0.1,Oct 05 13:56:49 kali pkexec[87502]: pam_unix(polkit-1:session): session opened for user root(uid=0) by kali(uid=1000)
+23,5,2026-10-05 12:56:42,Root Session Opened,Critical,127.0.0.1,Oct 05 13:56:42 kali pkexec[87375]: pam_unix(polkit-1:session): session opened for user root(uid=0) by kali(uid=1000)
+24,4,2026-10-05 12:55:01,Root Session Opened,Critical,127.0.0.1,Oct 05 13:55:01 kali CRON[86147]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+25,3,2026-10-05 12:48:18,Root Session Opened,Critical,127.0.0.1,Oct 05 13:48:17 kali pkexec[81067]: pam_unix(polkit-1:session): session opened for user root(uid=0) by kali(uid=1000)
+26,2,2026-10-05 12:45:02,Root Session Opened,Critical,127.0.0.1,Oct 05 13:45:01 kali CRON[78771]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+27,1,2026-10-05 12:39:02,Root Session Opened,Critical,127.0.0.1,Oct 05 13:39:01 kali CRON[73778]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
